@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+img { height:300px,weight:300px;}
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <img src="https://wallpaperaccess.com/full/2302492.jpg"></img>
+    <br>
+
+    @Html.ActionLink("Create","Add")<br>
+@Html.ActionLink("List","List")<br>
+@Html.ActionLink("Find","Find")<br>
+
+@Html.ActionLink("Edit","Edit")<br>
+@Html.ActionLink("Delete","Delete")<br>
+    
+   </div>
+ 

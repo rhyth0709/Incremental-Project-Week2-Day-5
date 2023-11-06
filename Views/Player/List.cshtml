@@ -1,0 +1,40 @@
+@model List<Player>
+
+<h2>List of Players</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Category</th>
+            <th>BiddingAmount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var player in Model)
+        {
+            <tr>
+                <td>@player.Id</td>
+                <td>@player.Name</td>
+                <td>@player.Age</td>
+                <td>@player.Category</td>
+                <td>@player.BiddingAmount</td>
+                <td>
+                    @Html.ActionLink("Edit","Edit",new{Id=@player.Id})
+                   
+                </td>
+                <td> @Html.ActionLink("Delete","Delete",new{Id=@player.Id})</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class='text-center'>
+@Html.ActionLink("Create","Add")<br>
+@Html.ActionLink("List","List")<br>
+@Html.ActionLink("Edit","Edit")<br>
+@Html.ActionLink("Delete","Delete")<br>
+@Html.ActionLink("Find","Find")<br>
+</div>

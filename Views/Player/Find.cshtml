@@ -1,0 +1,38 @@
+
+@model Player
+
+<h2>Player Details</h2>
+
+<form method="Post" asp-action="Find">
+
+    <div class="form-group">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" class="form-control" />
+    </div>
+
+    <br>
+
+    <button class='btn btn-success' type='Submit'>Find</button>
+
+</form>
+
+
+@if(@Model!=null){
+
+<div>
+    <strong>Id:</strong> @Model.Id
+</div>
+<div>
+    <strong>Name:</strong> @Model.Name
+</div>
+<div>
+    <strong>Age:</strong> @Model.Age
+</div>
+<div>
+    <strong>Category:</strong> @Model.Category
+</div>
+<div>
+    <strong>Bidding Price:</strong> @Model.BiddingAmount
+</div>
+
+}
