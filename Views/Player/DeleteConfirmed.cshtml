@@ -18,7 +18,7 @@
     <strong>Bidding Price:</strong> @Model.BiddingAmount
 </div> 
 
-<form asp-action="Delete" method="post">
+<form asp-action="DeleteConfirmed" method="post">
     <input type="hidden" asp-for="Id" />
     <p>Are you sure you want to delete this player?</p>
     <button type="submit" class="btn btn-danger">Delete</button>

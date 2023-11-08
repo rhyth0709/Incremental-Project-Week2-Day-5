@@ -1,0 +1,9 @@
+@model IEnumerable<Team>
+
+<h2>Details of Teams</h2>
+
+@foreach (var item in Model)
+{
+    <b>@item.Name</b>
+    <br>
+}

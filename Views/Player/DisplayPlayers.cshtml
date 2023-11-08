@@ -1,0 +1,14 @@
+@model IEnumerable<Player>
+ <div class='container'>
+<h2>Details of All Players</h2>
+<div>
+<div class='container'>
+    @foreach (var player in Model)
+    {
+
+      
+        <b>@player.Name</b>
+        <br>
+    
+    }
+</div>

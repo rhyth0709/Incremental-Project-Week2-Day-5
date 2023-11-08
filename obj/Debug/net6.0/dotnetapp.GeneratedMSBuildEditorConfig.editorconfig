@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/coder/project/workspace/dotnetapp
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/coder/project/workspace/dotnetapp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/coder/project/workspace/dotnetapp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/coder/project/workspace/dotnetapp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,12 +31,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/coder/project/workspace/dotnetapp/Views/Player/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0FkZC5jc2h0bWw=
+[/home/coder/project/workspace/dotnetapp/Views/Player/AddTeam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0FkZFRlYW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/coder/project/workspace/dotnetapp/Views/Player/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0RlbGV0ZS5jc2h0bWw=
+[/home/coder/project/workspace/dotnetapp/Views/Player/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/coder/project/workspace/dotnetapp/Views/Player/DeleteConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0RlbGV0ZUNvbmZpcm1lZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/coder/project/workspace/dotnetapp/Views/Player/DisplayPlayers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0Rpc3BsYXlQbGF5ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/coder/project/workspace/dotnetapp/Views/Player/DisplaysAllPlayers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0Rpc3BsYXlzQWxsUGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/coder/project/workspace/dotnetapp/Views/Player/DisplayTeams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0Rpc3BsYXlUZWFtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/coder/project/workspace/dotnetapp/Views/Player/Edit.cshtml]
@@ -41,10 +65,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/coder/project/workspace/dotnetapp/Views/Player/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0luZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/coder/project/workspace/dotnetapp/Views/Player/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVyL0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/coder/project/workspace/dotnetapp/Views/Shared/Error.cshtml]
